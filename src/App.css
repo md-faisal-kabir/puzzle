@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+#jigsaw{
+  text-align: center;
+}
+
+li{
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #DDD;
+  border-width: 1px 0 0 1px;
+}
+
+li img{
+  cursor: grab;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.jigsaw_shuffled-board{
+  /* margin: 20px auto; */
+  /* width: 800px; */
+  list-style-type: none;
+  padding: 0;
+  font-size: 0;
+  border: 1px solid #DDD;
+  border-width: 1px 0 0 1px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
